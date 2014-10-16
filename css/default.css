@@ -1,0 +1,151 @@
+/* COLOR STYLES */
+
+html {
+    background-color: #666;
+}
+body {
+    color: #2A4560;
+}
+header, header a {
+    background-color: #2A4560;
+    color: #fff;
+}
+section {
+    background-color: #e4ecf4;
+    color: #2A4560;
+}
+footer {
+    background-color: #2A4560;
+}
+footer nav a {
+    color: #fff;
+}
+footer aside {
+    color: #fff;
+}
+input[type=submit] {
+    background-color: #2A4560;
+    color: #fff;
+}
+ul#features > li a {
+    border-radius: .5em;
+    -o-border-radius: .5em;
+    -ms-border-radius: .5em;
+    -moz-border-radius: .5em;
+    -webkit-border-radius: .5em;
+    background: #2A4560;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+::selection {
+    background: #fe57a1;
+    color: #fff;
+}
+::-moz-selection {
+    background: #fe57a1;
+    color: #fff;
+}
+
+/* TYPE STYLES e.g., word-spacing, letter-spacing, text-decoration, vertical-align, text-transform, text-align, text-indent, line-height */
+
+body {
+    -webkit-text-size-adjust: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+b, strong {
+    font-weight: bold;
+}
+p {
+    line-height: 1.5em;
+}
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header, footer, h1 {
+    text-align: center;
+}
+nav ul, ul#features {
+    list-style: none;
+}
+nav li a {
+    background-color: rgba(0,0,0,.3);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+input, textarea {
+    font-size: 115%;
+}
+input[type=submit] {
+    font-weight: bold;
+    font-size: 115%;
+}
+footer aside {
+    font-size: 75%;
+}
+
+/* LAYOUT STYLES (moving stuff from its default location) e.g., display; margin; padding; list style; border radius, style & width; text-align */
+
+body, header, section, footer, fieldset, ul, li, h1, h2, p, img {
+    -webkit-box-sizing: border-box;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+}
+header a {
+    background-image: url(../images/logo_230.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    padding: .35em 0;
+    text-indent: -9999px;
+}
+img {
+    width: 100%;
+}
+section {
+    padding: 1em 1em 0 1em;
+}
+section > h1 {
+    border-color: #2A4560;
+    border-style: dashed;
+    border-width: 1px 0;
+    padding: .5em 0;
+}
+form {
+    padding-bottom: 1em;
+}
+label {
+    display: block;
+    padding-top: 1em;
+}
+input, textarea {
+    -webkit-box-sizing: border-box;
+    padding: .25em;
+    width: 100%;
+}
+input[type=submit] {
+    -webkit-border-radius:.5em;
+    border: none;
+    margin-top: 1em;
+}
+textarea {
+    height: 5em;
+}
+#features a {
+    display: block;
+    margin-top: 1em;
+    padding: .5em;
+}
+footer {
+    padding: 1em;
+}
+footer li a {
+    -webkit-border-radius: .5em;
+    display: block;
+    margin-bottom:1em;
+    padding: 1em;
+}

@@ -1,0 +1,115 @@
+/* Rearrange the furniture for screens wider than 37.5em (i.e. 600px) */
+
+@media screen and (min-width: 37.5em) {
+    body > * {
+        margin: 0 auto;
+        max-width: 56.25em;
+    }
+    nav li {
+        display: inline-block;
+    }
+    nav li a {
+        padding: .5em;
+    }
+    ul#features {
+        text-align: center;
+    }
+    ul#features li {
+        display: inline-block;
+        margin: 2%;
+        min-height: 18em;
+        position: relative;
+        text-align: left;
+        vertical-align: text-top;
+        width: 28%;
+    }
+    ul#features li a {
+        bottom: 5%;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+/* Rearrange the furniture for screens wider than 56.25em (i.e., 900px) */
+
+@media screen and (min-width: 56.25em) {
+    header {
+        height: 4em;
+        position: relative;
+    }
+    header a {
+        left:0;
+        position: absolute;
+        width: 230px;
+    }
+    header p {
+        right:0;
+        position:absolute;
+    }
+    body > section {
+        -webkit-box-sizing: border-box;
+    }
+    section#hero p {
+        text-align: center;
+    }
+    ul#features li h3 {
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        line-height: 32px;
+        padding-left: 38px;
+    }
+    ul#features li.engage h3 {
+        background-image: url(../images/forum_32.png);
+    }
+    ul#features li.integrate h3 {
+        background-image: url(../images/puzzle_32.png);
+    }
+    ul#features li.customize h3 {
+        background-image: url(../images/heart_32.png);
+    }
+    header, section, footer {
+        -webkit-box-shadow: rgba(0, 0, 0, 0.6) 0 5px 12px;
+    }
+}
+
+/* Provide a hi-res logo for retina screens */
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+    header a {
+        background-image: url(../images/logo_460.png);
+        background-size: 230px 50px;
+    }
+}
+
+/* Provide hi-res graphics for retina screens wider than 56.25em (i.e., 900px) */
+
+@media screen and (min-width: 56.25em) and (-webkit-min-device-pixel-ratio: 2) {
+    ul#features li.engage h3 {
+        background-image: url(../images/forum_64.png);
+        background-size: 32px;
+    }
+    ul#features li.integrate h3 {
+        background-image: url(../images/puzzle_64.png);
+        background-size: 32px;
+    }
+    ul#features li.customize h3 {
+        background-image: url(../images/heart_64.png);
+        background-size: 32px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
